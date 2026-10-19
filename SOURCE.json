@@ -1,0 +1,17 @@
+{
+  "driver": "RTL8812EU / RTL8822EU",
+  "archive_name": "rtl8812eu-5.15.0.1.zip",
+  "archive_sha256": "75663b1c2bfe7043091dcefc14b9902d43b5b9d7e064ac801225026990e82e66",
+  "upstream_reference": "https://github.com/svpcom/rtl8812eu/tree/v5.15.0.1",
+  "archive_commit": "not recorded in provided ZIP; upstream URL is a reference, not a verified commit pin",
+  "driver_version": "v5.15.0.1-249-g9245f8bd9.20241218_COEX20240913-390e",
+  "dkms_package": "realtek-rtl88x2eu",
+  "dkms_version": "5.15.0.1~20230815",
+  "local_changes": [
+    "dkms.conf: MAKE explicitly sets CC=gcc-12"
+  ],
+  "tested_os": "Ubuntu 22.04.5 amd64",
+  "tested_kernel": "6.8.0-85-generic",
+  "usb_id": "0bda:a81a",
+  "packaged_date": "2026-10-19"
+}
